@@ -26,7 +26,7 @@ class CustomerDaoTest {
 
     @Test
     void addCust() {
-        Customer customer = new Customer("John","Doe2",
+        Customer customer = new Customer("Asep","Doe2",
                 LocalDate.of(1998,9,9));
         try{
             dao.addCust(customer);
